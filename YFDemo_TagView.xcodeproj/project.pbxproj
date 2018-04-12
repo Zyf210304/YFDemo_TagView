@@ -13,6 +13,10 @@
 		18188AF0207F041800383714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18188AEF207F041800383714 /* Assets.xcassets */; };
 		18188AF3207F041800383714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18188AF1207F041800383714 /* LaunchScreen.storyboard */; };
 		18188AF6207F041800383714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188AF5207F041800383714 /* main.m */; };
+		18188AFF207F046600383714 /* YFTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188AFE207F046600383714 /* YFTag.m */; };
+		18188B02207F05CA00383714 /* YFTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188B01207F05CA00383714 /* YFTagButton.m */; };
+		18188B05207F068F00383714 /* YFTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188B04207F068F00383714 /* YFTagView.m */; };
+		18188B08207F0B3E00383714 /* YFTagCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18188B07207F0B3E00383714 /* YFTagCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		18188AF2207F041800383714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18188AF4207F041800383714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18188AF5207F041800383714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18188AFD207F046600383714 /* YFTag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFTag.h; sourceTree = "<group>"; };
+		18188AFE207F046600383714 /* YFTag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFTag.m; sourceTree = "<group>"; };
+		18188B00207F05CA00383714 /* YFTagButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFTagButton.h; sourceTree = "<group>"; };
+		18188B01207F05CA00383714 /* YFTagButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFTagButton.m; sourceTree = "<group>"; };
+		18188B03207F068F00383714 /* YFTagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFTagView.h; sourceTree = "<group>"; };
+		18188B04207F068F00383714 /* YFTagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFTagView.m; sourceTree = "<group>"; };
+		18188B06207F0B3E00383714 /* YFTagCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFTagCustomView.h; sourceTree = "<group>"; };
+		18188B07207F0B3E00383714 /* YFTagCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFTagCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,9 @@
 				18188AE7207F041800383714 /* AppDelegate.m */,
 				18188AE9207F041800383714 /* ViewController.h */,
 				18188AEA207F041800383714 /* ViewController.m */,
+				18188B06207F0B3E00383714 /* YFTagCustomView.h */,
+				18188B07207F0B3E00383714 /* YFTagCustomView.m */,
+				18188AFC207F043100383714 /* YFTag */,
 				18188AEC207F041800383714 /* Main.storyboard */,
 				18188AEF207F041800383714 /* Assets.xcassets */,
 				18188AF1207F041800383714 /* LaunchScreen.storyboard */,
@@ -69,6 +84,19 @@
 				18188AF5207F041800383714 /* main.m */,
 			);
 			path = YFDemo_TagView;
+			sourceTree = "<group>";
+		};
+		18188AFC207F043100383714 /* YFTag */ = {
+			isa = PBXGroup;
+			children = (
+				18188AFD207F046600383714 /* YFTag.h */,
+				18188AFE207F046600383714 /* YFTag.m */,
+				18188B00207F05CA00383714 /* YFTagButton.h */,
+				18188B01207F05CA00383714 /* YFTagButton.m */,
+				18188B03207F068F00383714 /* YFTagView.h */,
+				18188B04207F068F00383714 /* YFTagView.m */,
+			);
+			path = YFTag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +125,7 @@
 		18188ADB207F041800383714 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YF;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = yafei;
 				TargetAttributes = {
@@ -143,6 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18188AEB207F041800383714 /* ViewController.m in Sources */,
+				18188B08207F0B3E00383714 /* YFTagCustomView.m in Sources */,
+				18188B02207F05CA00383714 /* YFTagButton.m in Sources */,
+				18188B05207F068F00383714 /* YFTagView.m in Sources */,
+				18188AFF207F046600383714 /* YFTag.m in Sources */,
 				18188AF6207F041800383714 /* main.m in Sources */,
 				18188AE8207F041800383714 /* AppDelegate.m in Sources */,
 			);
